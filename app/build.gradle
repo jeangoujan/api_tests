@@ -20,6 +20,13 @@ dependencies {
     testImplementation libs.junit.jupiter
 
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    // Source: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:6.1.0-M1'
+    // Source: https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    testImplementation 'io.rest-assured:rest-assured:6.0.0'
+
+    testImplementation 'org.hamcrest:hamcrest:3.0' // Для разных проверок
+    
 
     // This dependency is used by the application.
     implementation libs.guava
